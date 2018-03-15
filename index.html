@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Wikipedia Viewer (Final)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Dhurjati| Open+Sans|Roboto|Montserrat|Dancing+Script|Poiret+One" rel="stylesheet">
+    <title>Wikipedia Viewer</title>
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css'>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="col center">
+            <h1 style="margin-top: 15px;" class="engraved-text"><b>Wikipedia Viewer</b></h1>
+        </div>
+        <h4 class="center"><i>Search by Title</i></h4>
+        <div class=" center">
+            <img src="https://dl.dropboxusercontent.com/s/r2czo0ke0j7f95a/wikipedia%20icon.png?dl=0" class="wiki-img"> </img>
+        </div>
+        <br>
+        <div class="center">
+            <span style="color: black;">  
+      <input id="search-input" style="margin-bottom: 15px; width: 300px;" class="center"></span>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col text-right">
+                    <button type="button" id="submit" class="btn btn-primary" style="width: 89px;">Submit</button>
+                </div>
+                <div class="col text-left">
+                    <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">
+                        <button type="button" class="btn btn-primary">Random Article</button>
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col" id="wiki-output-div" style="padding-top: 15px;">
+                    <ul id="wiki-output">
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/systemjs-plugin-json/0.3.0/json.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jQuery-JSONP/2.4.0/jquery.jsonp.js'></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

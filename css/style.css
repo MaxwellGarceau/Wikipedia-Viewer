@@ -1,0 +1,79 @@
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+body {
+    background-color: rgb(60, 60, 60);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: auto;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 40px;
+}
+
+li {
+    color: white;
+    width: 100%;
+}
+
+h1 {
+    font-size: 6vmax;
+}
+
+.btn-primary {
+    background-color: black;
+    border-color: grey;
+    border-radius: 20px;
+    border-width: 0px;
+}
+
+.btn-primary:hover {
+    color: black;
+    background-color: white;
+}
+
+.engraved-text {
+    color: white;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, .5);
+    font-weight: bold;
+}
+
+.center {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.wiki-img {
+    height: 35%;
+    width: 35%;
+    max-width: 400px;
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.relative {
+    position: relative;
+}
